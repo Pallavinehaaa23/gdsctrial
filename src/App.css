@@ -1294,17 +1294,17 @@ body{
 }
 footer{
     width: 100%;
-    position: relative;
-   margin-bottom: 0px;
+    position: absolute;
     bottom: 0cm;
-    background: linear-gradient(to right,#00093c,#2d0b00);
+    background: linear-gradient(rgb(33, 32, 32) ,rgb(93, 92, 92));
     color: #fff;
-    border-top-right-radius:5px ;
+    border-top-right-radius:125px ;
     font-size:13px;
     line-height:20px;
 }
 .row{
-    width:85%;
+    width:80%;
+    height:200px;
     margin:auto;
     display: flex;
     flex-wrap:wrap ;
@@ -1313,22 +1313,18 @@ footer{
 }
 .col{
     flex-basis:25% ;
-    padding:30px;
-    
-}
-.col p{
-  padding-left: 5pc;
+    padding:10px;
 }
 .col h3{
-  margin-left: 5pc;
-    width:fit-content;
-    margin-bottom:40px;
+
+    margin-bottom:8px;
     position:relative;
+
 
 }
 #list h3{
     position: relative;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 .email{
     width: fit-content;
